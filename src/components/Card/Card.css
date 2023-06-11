@@ -1,0 +1,73 @@
+.card {
+  width: 275px;
+  height: 220px;
+  background: #f5f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 60px;
+  position: relative;
+}
+
+.card img {
+  margin-top: 20px;
+}
+
+.card-lower {
+  width: 275px;
+  height: 93px;
+  margin-top: 23px;
+  padding: 15px;
+  background: #eeeeee;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.card-lower p {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+
+  color: #959595;
+}
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 126px;
+  height: 40px;
+
+  background: #44a16f;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.rare-find {
+  position: absolute;
+  width: 127px;
+  height: 40px;
+  top: -20px;
+  right: -30px;
+  background: #d96a6b;
+  border-radius: 10px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
